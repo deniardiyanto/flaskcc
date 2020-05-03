@@ -12,6 +12,7 @@ app.config['MYSQL_DATABASE_DB'] = 'BucketList'
 app.config['MYSQL_DATABASE_HOST'] = 'localhost'
 mysql.init_app(app)
 
+##coba comment
 
 @app.route('/')
 def main():
